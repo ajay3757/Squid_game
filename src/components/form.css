@@ -1,0 +1,40 @@
+.whole{
+    display: flex;
+    justify-content: center
+}
+.outer {
+    border: 2px solid black;
+    height: 600px;
+    width: 300px;
+    margin-top: 30px;
+  
+    border-radius: 1.5%;
+    border-color: grey;
+    background-image: url(bg6.jpg);
+    color: white;
+}
+
+label {
+    font-size: x-large;
+}
+
+@media (max-width: 768px) {
+    .outer {
+        width: 100%; 
+        margin: 0 ; 
+        margin-top: 0px;
+        padding: 20px; 
+    }
+
+    .size,
+    input {
+        width: 200px; 
+        margin-bottom: 10px; 
+    }
+
+    label {
+        font-size: large; 
+    }
+
+    
+}
